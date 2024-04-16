@@ -1,0 +1,9 @@
+[core]
+	autocrlf = input
+    filemode = false
+    sshCommand = ssh -i ~/.ssh/jack
+[user]
+    name = Jack
+    email = jakku@outlook.com.br
+[includeIf "gitdir:~/repos/gringo/"]
+    path = .gitconfig.gringo

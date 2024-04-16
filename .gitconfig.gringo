@@ -1,0 +1,5 @@
+[core]
+    sshCommand = ssh -i ~/.ssh/gringo
+[user]
+    name = Jack
+    email = jack@gringo.com.vc
